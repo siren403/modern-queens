@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cd /tmp && mkdir gh-pages-clean && cp -r /mnt/vol1/modern-queens/build/web/. gh-pages-clean/ && touch gh-pages-clean/.nojekyll && git checkout --orphan gh-pages && git rm -rf . --quiet && ...",
+  "error": "Exit code 1\ncp: cannot stat '/mnt/vol1/modern-queens/build/web/.': No such file or directory",
+  "timestamp": "2026-06-10T02:57:47.754Z",
+  "retry_count": 2
+}
