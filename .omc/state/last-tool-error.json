@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"codex app-server daemon bootstrap --remote-control 2>&1\",\"description\":\"Bootstrap app-server daemon with remote control enabled\"}",
+  "error": "Exit code 1\nError: managed standalone Codex install not found at /home/ubuntu/.codex/packages/standalone/current/codex\n\nThis command requires the standalone install managed by the Codex installer, because the daemon starts and updates app-server from that fixed path.\n\nInstall it with:\n  curl -fsSL https://chatgpt.com/codex/install.sh | sh\n\nThen rerun the command you just tried.",
+  "timestamp": "2026-06-10T02:21:02.562Z",
+  "retry_count": 1
+}

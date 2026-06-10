@@ -1,0 +1,10 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; but then it's also fine to edit it manually.
+
+config_version=5
+
+[application]
+
+config/name="modern-queens"
+config/features=PackedStringArray("4.6")
